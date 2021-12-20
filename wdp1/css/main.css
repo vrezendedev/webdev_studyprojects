@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
+
+
+:root{
+    --background: #F3F0D7;
+    --h1color: #716F81;
+    --h2color: #87A8A4;
+    --namecolor: #63837f;
+    --pcolor: #6D8299;
+    --spancolor: #8B5E83;
+    --labelcolor: #7C9473;
+    --buttoncolor: #e48058;
+    --bordercolor: #CFDAC8;
+    --exer01color: #F4EEED; 
+    --pgr1color: #DFF3E3;
+    --exer02color: #FFE2E2;
+    --pgr2color: #F7F2E7;
+    --exer03color: #DDF3F5 ;
+    --pgr3color: #F5FCC1;
+}
+
+* {
+    font-family: 'Zen Old Mincho', serif, Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    margin: 0.4em;
+    text-align: justify;    
+    background-color: var(--background);
+}
+
+p{
+    margin: 0.1em;
+    margin-bottom: 0;
+    color: var(--pcolor);
+}
+
+.disci{
+    margin-bottom: 1em;
+    margin-top: 0;
+    padding: 0;
+    font-size: 0.8em;
+}
+
+h1{
+    color: var(--h1color);  
+    margin-bottom: 0.1em;  
+}
+
+.nome{
+    text-align: right;
+    display: block;
+    color: var(--namecolor);
+    margin: 0;
+    border: none;
+    padding: none;
+}
+
+h2{
+    color: var(--h2color);
+    padding-right: 0.3em;
+    padding-left: 0.3em;
+    display: inline-block;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgba(0, 128, 128, 0.384);
+    border-top: none;
+    border-bottom: none; 
+}
+
+label{
+    margin-top: 1em;
+    font-size: large;
+    font-weight:400;
+    color: var(--labelcolor);
+}
+
+input{
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+span{
+    font-weight: bold;
+    color: var(--spancolor);
+}
+
+button{
+    margin: 0.5em;
+    margin-bottom: 0.3em;
+    font-size: medium;
+    font-weight: bold;
+    color: var(--buttoncolor);
+}
+
+.ex01{
+    padding: 1em;
+    padding-top: 0;
+    background-color: var(--exer01color);
+    border-style: dashed;
+    border-width: thin;
+    border-left: none;
+    border-right: none;
+}
+
+.prg01{
+    display:inline-block;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-style:solid;
+    border-width: medium;
+    border-color: var(--bordercolor);
+    background-color: var(--pgr1color);
+}
+
+.quanTmoedas{
+    margin-bottom: 0.9em;
+}
+
+.ex02{
+    padding: 1em;
+    padding-top: 0;
+    background-color: var(--exer02color);
+    border-style: dashed;
+    border-width: thin;
+    border-left: none;
+    border-right: none;
+}
+
+.prg02{
+    display:inline-block;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-style:solid;
+    border-width: medium;
+    border-color: var(--bordercolor);
+    background-color: var(--pgr2color);
+}
+
+.ex03{
+    padding: 1em;
+    padding-top: 0;
+    background-color: var(--exer03color);
+    border-style: dashed;
+    border-width: thin;
+    border-left: none;
+    border-right: none;
+}
+
+.prg03{
+    display:inline-block;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-style:solid;
+    border-width: medium;
+    border-color: var(--bordercolor);
+    background-color: var(--pgr3color);
+}
